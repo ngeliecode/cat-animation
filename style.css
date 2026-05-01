@@ -6,14 +6,14 @@ body {
   height: 100vh;
 }
 
-.sprite {
+.spritesheet {
   width: 200px;
   height: 180px;
   background: url("catwalk.svg") no-repeat;
   background-size: 800px 180px;
   animation: catWalk 1s steps(4) infinite;
 }
-.sprite:hover {
+.spritesheet:hover {
   animation: none;
 }
 
