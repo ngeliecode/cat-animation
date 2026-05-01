@@ -1,13 +1,40 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
-    <title>Sprite Test</title>
+    <title>SVG och Animation</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="spritesheet">
+    <div class="animation">
+      <div class="spritesheet"></div>
       <p>Lite lustig gångstil men</p>
+      <button class="btn">Klicka här</button>
+    </div>
+    <div class="svg hidden">
+      <svg
+        width="226"
+        height="226"
+        viewBox="0 0 226 226"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M199 90.3923C201 88.3923 203 87.6076 206 88.5C207.167 89.4047 206.727 89.3682 207.5 88"
+          stroke="black"
+        />
+        <path
+          d="M215.5 96L201.5 93M215.5 96L199 98.5M215.5 96L200.5 103"
+          stroke="black"
+          stroke-width="0.3"
+        />
+        <path
+          d="M126 177.5L75 171.5M126 177.5V171.5M126 177.5V198.5L128.5 214L131.5 219H149.5L148.5 214L142 211L149.5 180L165 177.5M75 171.5L67 195L71.5 211H76L78.5 214V218.5H71.5H63.5L46 196L43.5 183M75 171.5L77.5 165M165 177.5L177.5 171.5L186 160.5M165 177.5L197.5 216.5H212V211.5L208.5 208L204 208.75L195.5 195L186 160.5M186 160.5C198 119 191.208 116.877 216.5 107C217.151 101.1 216.325 103.223 218.5 97.5M218.5 97.5C214.5 102 209.573 104.513 207 101.5M218.5 97.5L219.367 95M219.367 95L216.5 93L219.367 91.5M219.367 95V91.5M219.367 91.5C215.867 91 212.262 83.2343 209 74L197.5 69L192 58.5L182 49L178.5 61M178.5 61L170 50.5L171 72C155 82.5 170 114 145.5 117C105.809 128.078 108.283 122 79.2831 117C73.4124 115.571 59.9291 119.101 51.2831 117L43.5 79L74 12.5L57.5 10L30 44L18.5 85V101.5L35.5 131M178.5 61L177.5 69.5M35.5 131C30.4561 156.472 27.3889 178.718 18.5 183L8.5 204L6 212C7.60571 216.742 9.09488 216.814 14.5 216L30 196L43.5 183M35.5 131V152L43.5 183"
+          stroke="black"
+        />
+      </svg>
+      <p>Min 2.0 katt!</p>
     </div>
   </body>
 </html>

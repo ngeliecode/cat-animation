@@ -1,9 +1,18 @@
 body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
 }
 
 .spritesheet {
@@ -12,9 +21,10 @@ body {
   background: url("../catwalk.svg") no-repeat;
   background-size: 800px 180px;
   animation: catWalk 1s steps(4) infinite;
-}
-.spritesheet:hover {
-  animation: none;
+
+  &:hover {
+    animation: none;
+  }
 }
 
 @keyframes catWalk {
