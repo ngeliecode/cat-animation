@@ -1,0 +1,20 @@
+.spritesheet {
+  width: 200px;
+  height: 180px;
+  background: url("../assets/catwalk.svg") no-repeat;
+  background-size: 800px 180px;
+  animation: catWalk 1s steps(4) infinite;
+
+  /*&:hover {
+    animation: none;
+  }*/
+}
+
+@keyframes catWalk {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -800px 0;
+  } // width * antal frames
+}

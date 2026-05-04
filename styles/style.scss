@@ -1,11 +1,15 @@
+@use "spritesheet";
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.animation {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,23 +19,29 @@ body {
   display: none;
 }
 
-.spritesheet {
-  width: 200px;
-  height: 180px;
-  background: url("../catwalk.svg") no-repeat;
-  background-size: 800px 180px;
-  animation: catWalk 1s steps(4) infinite;
-
-  &:hover {
-    animation: none;
+.text--vector {
+  svg {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  path {
+    transform: translateX(200px);
+    opacity: 0;
+    fill: inherit;
+    stroke: black;
   }
 }
 
-@keyframes catWalk {
-  from {
-    background-position: 0 0;
+button {
+  background: none;
+  margin: 0.25rem;
+  padding: 5px 10px;
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+
+  &:hover {
+    border: 1px solid #ff00ff;
+    color: #ff00ff;
   }
-  to {
-    background-position: -800px 0;
-  } /* width x antal frames */
 }
