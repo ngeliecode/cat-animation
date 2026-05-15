@@ -15,7 +15,8 @@ https://ngeliecode.github.io/cat-animation/ 👈 anpassat till desktop
 />
 
 ## 🤖 AI genererad bild
-Denna bild kan användas som en placeholder för en produktbild. En webbshop som säljer doftljus till exempel.
+Denna bild kan användas som en placeholder för en produktbild. 
+<br>En webbshop som säljer doftljus till exempel.
 
 <img
   src="./assets/product-image.jpg"
