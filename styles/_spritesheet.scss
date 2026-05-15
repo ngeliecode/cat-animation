@@ -5,9 +5,9 @@
   background-size: 800px 180px;
   animation: catWalk 1s steps(4) infinite;
 
-  /*&:hover {
+  &:hover {
     animation: none;
-  }*/
+  }
 }
 
 @keyframes catWalk {

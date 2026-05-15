@@ -1,7 +1,6 @@
 const firstBtn = document.querySelector(".btn");
 const secondBtn = document.querySelector(".second-btn");
 const thirdBtn = document.querySelector(".third-btn");
-const fourthBtn = document.querySelector(".fourth-btn");
 const spritesheet = document.querySelector(".cat--sprite");
 const drawing = document.querySelector(".cat--vector");
 const text = document.querySelector(".text--vector");
@@ -12,18 +11,13 @@ firstBtn.addEventListener("click", () => {
 });
 
 secondBtn.addEventListener("click", () => {
+  spritesheet.classList.add("hidden");
   drawing.classList.remove("hidden");
-  text.classList.add("hidden");
 });
 
 thirdBtn.addEventListener("click", () => {
   text.classList.remove("hidden");
   drawing.classList.add("hidden");
-});
-
-fourthBtn.addEventListener("click", () => {
-  spritesheet.classList.add("hidden");
-  text.classList.remove("hidden");
 });
 
 gsap.to(".text--vector path", {
@@ -37,13 +31,6 @@ gsap.to("#e", {
   rotation: 360,
   duration: 4,
   transformOrigin: "center center",
-  repeat: -1,
-  yoyo: true,
-});
-gsap.to("#o", {
-  scale: 0.5,
-  transformOrigin: "left center",
-  duration: 5,
   repeat: -1,
   yoyo: true,
 });
