@@ -1,7 +1,44 @@
+# Ett litet projekt
+Detta är ett litet projekt som är tillägnat åt animationer.
+
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+
+## Live sida
+(anpassad till desktop)
+
 https://ngeliecode.github.io/cat-animation/
 
-<img width="459" height="446" alt="Recording 2026-05-12 at 16 59 47" src="https://github.com/user-attachments/assets/467daf32-1771-417a-a20a-36380b26aadf" />
+## Preview
+<img
+  src="./assets/project-preview.gif"
+  alt="Preview of project"
+  width="500"
+/>
 
-![Preview of project](./assets/project-preview.gif)
+## Animerad spritesheet
+Denna spritesheet är gjord i Figma och har fyra frames.
 
-![Animation of spritesheet](./assets/sprite-animation.gif)
+<img
+  src="./assets/sprite-animation.gif"
+  alt="Animation of spritesheet"
+  width="500"
+/>
+
+## AI genererad bild
+Denna bild kan användas som en placeholder för en produktbild. En webbshop som säljer doftljus till exempel.
+
+<img
+  src="./assets/product-image.jpg"
+  alt="Scented candle"
+  width="500"
+/>
+
+
+
+
+
