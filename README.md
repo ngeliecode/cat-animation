@@ -14,16 +14,6 @@ https://ngeliecode.github.io/cat-animation/ 👈 anpassat till desktop
   width="500"
 />
 
-## 🤖 AI genererad bild
-Denna bild kan användas som en placeholder för en produktbild. 
-<br>En webbshop som säljer doftljus till exempel.
-
-<img
-  src="./assets/product-image.jpg"
-  alt="Scented candle"
-  width="500"
-/>
-
 
 
 
