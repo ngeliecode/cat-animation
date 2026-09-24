@@ -1,5 +1,5 @@
 # Ett litet projekt
-https://ngeliecode.github.io/cat-animation/ 👈 anpassat till desktop
+https://ngeliecode.github.io/cat-animation/ 👈 Live demo
 
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
